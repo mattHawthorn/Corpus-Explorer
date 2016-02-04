@@ -1,0 +1,11 @@
+{
+    "bigramModel": "bigrams_gensim", 
+    "trigramModel": "trigrams_gensim", 
+    "tfidfModel": "tfidf_gensim", 
+    "LDAModel": "LDA_30_topics_auto_alpha_default_eta_100_passes", 
+    "dictionary": "dictionary_gensim", 
+    "corpus": "corpus_gensim.p", 
+    "numTopicTerms": 200, 
+    "numDocTerms": 50, 
+    "topicThreshold": 0.01
+}

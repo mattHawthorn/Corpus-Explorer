@@ -1,0 +1,7 @@
+*~
+*.ipynb*
+*.gz
+/source_text/*
+/text_utf8/*
+/models/*
+.Rhistory

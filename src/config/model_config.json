@@ -1,0 +1,26 @@
+{
+    "minWordsPerDoc": 20, 
+    "bigramThreshold": 70.0, 
+    "trigramThreshold": 70.0, 
+    "minWordLength": 2, 
+    "maxWordLength": 30, 
+    "dfThresholdLow": 0.008, 
+    "dfThresholdHigh": 0.98, 
+    "tfThreshold": 5, 
+    "specifyStopwords": true, 
+    "updateStopwords": true, 
+    "LDAParams": [
+        {
+            "alpha": "auto", 
+            "eta": "default", 
+            "passes": 100, 
+            "topics": 20
+        }, 
+        {
+            "alpha": "auto", 
+            "eta": "default", 
+            "passes": 100, 
+            "topics": 30
+        }
+    ] 
+}
